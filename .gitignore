@@ -1,0 +1,35 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+*.egg
+.python-version
+
+# Tests / coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Logs
+*.log
+
+# Local IDE / agent history (absolute paths, chat dumps)
+.cursor/
+.vscode/
+.specstory/
+.cursorindexingignore
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
